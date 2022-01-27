@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 1019px) {
     .idc-section {
         max-width: 610px;
@@ -96,9 +94,9 @@
         line-height: 5.9vw;
     }
     .idc-man {
-        bottom: -2vw;
-        right: -11vw;
-        width: 66vw;
+        bottom: 0px;
+        right: -41px;
+        width: 246px;
     }
     .idc-valentin {
         margin-top: 80px;
