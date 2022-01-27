@@ -1,0 +1,136 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .idc-tahoma16 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    /* ******head**** */
+    .idc-desktop-1,
+    .idc-desktop-2,
+    .idc-desktop-3,
+    .idc-mobile-1,
+    .idc-mobile-2 {
+        display: none;
+        position: absolute;
+    }
+    .idc-tablet-1,
+    .idc-tablet-2 {
+        display: block;
+        position: absolute;
+    }
+    .idc-tablet-1 {
+        bottom: 0;
+        left: 0;
+    }
+    .idc-tablet-2 {
+        top: 0;
+        right: 0;
+    }
+    .idc-logo {
+        position: static;
+        width: 179px;
+    }
+    .idc-for {
+        margin-top: 40px;
+    }
+    .idc-for .idc-title {
+        max-width: 406px;
+        font-size: 25px;
+        line-height: 114.9%;
+    }
+    .idc-valentin {
+        margin-top: 190px;
+    }
+    .idc-man {
+        bottom: 0;
+        right: 0;
+        width: 362px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-bottom: 110px;
+    }
+    .idc-desktop-1,
+    .idc-desktop-2,
+    .idc-desktop-3,
+    .idc-tablet-1,
+    .idc-tablet-2 {
+        display: none;
+        position: absolute;
+    }
+    .idc-mobile-1,
+    .idc-mobile-2 {
+        display: block;
+        position: absolute;
+    }
+    .idc-mobile-1 {
+        bottom: 0;
+        left: 0;
+    }
+    .idc-mobile-2 {
+        top: 0;
+        right: 0;
+    }
+    .idc-mark-open,
+    .idc-mark-close {
+        width: 20px;
+    }
+    .idc-mark-close {
+        bottom: 0;
+        right: -25px;
+    }
+    .idc-for .idc-title {
+        max-width: 80vw;
+        font-size: 5vw;
+        line-height: 5.9vw;
+    }
+    .idc-man {
+        bottom: -2vw;
+        right: -11vw;
+        width: 66vw;
+    }
+    .idc-valentin {
+        margin-top: 80px;
+    }
+    /* ******info**** */
+    .idc-info p > strong {
+        line-height: 110%;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 18px;
+    }
+
+    .idc-info ul li::before {
+        top: 8px;
+        width: 6px;
+        height: 6px;
+    }
+
+    /* *****video*** */
+    .idc-video-content {
+        height: 47.8vw;
+    }
+
+    /* *****footer*** */
+    .idc-footer .idc-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .idc-footer-ps {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
